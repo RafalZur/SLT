@@ -1,7 +1,7 @@
 #include <Encoder.h>
 
-Encoder AZ(5, 6);
-Encoder ALT(7, 8);
+Encoder AZ(5, 6); //AZimuth ecoder, best to chose pins with innterupts - see Encoder.h help
+Encoder ALT(7, 8); //ALTitude above horizon encoder, best to chose pins with innterupts  - see Encoder.h help
 
 void setup() {
   Serial.begin(9600);
