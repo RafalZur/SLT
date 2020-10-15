@@ -1,2 +1,2 @@
 # SLT
-project 
+project about astronomy
